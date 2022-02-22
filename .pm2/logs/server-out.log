@@ -1,0 +1,45 @@
+App listening at http://localhost:3000
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:530:11)
+    at ServerResponse.header (/root/server/node_modules/express/lib/response.js:776:10)
+    at /root/server/server.js:28:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:530:11)
+    at ServerResponse.header (/root/server/node_modules/express/lib/response.js:776:10)
+    at /root/server/server.js:58:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:530:11)
+    at ServerResponse.header (/root/server/node_modules/express/lib/response.js:776:10)
+    at /root/server/server.js:73:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:530:11)
+    at ServerResponse.header (/root/server/node_modules/express/lib/response.js:776:10)
+    at /root/server/server.js:43:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:530:11)
+    at ServerResponse.header (/root/server/node_modules/express/lib/response.js:776:10)
+    at /root/server/server.js:58:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+App listening at http://localhost:3000
+App listening at http://localhost:3000
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:530:11)
+    at ServerResponse.header (/root/server/node_modules/express/lib/response.js:776:10)
+    at /root/server/server.js:117:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
