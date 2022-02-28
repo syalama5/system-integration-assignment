@@ -394,3 +394,17 @@ app.delete('/customer/:CUST_CODE', async (req, res) => {
        if (conn) return conn.release();
      }
 });
+const axios = require('axios');
+
+app.get('/say', (req, res) => {
+    let keyword = req.query.keyword;
+    axios
+  .get('https://us-central1-uncc6155-spring2022-neha.cloudfunctions.net/function-1?keyword='+keyword)
+  .then(functionResponse => {
+    console.log(functionResponse.data);
+    res.status(200).send(functionResponse.data);
+  })
+  .catch(error => {
+    console.error(error)
+  });
+});
